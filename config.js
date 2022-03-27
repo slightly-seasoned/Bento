@@ -55,19 +55,25 @@ const CONFIG = {
 			id: '1',
 			name: 'GitHub',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com',
 		},
 		{
 			id: '2',
 			name: 'Reddit',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://www.reddit.com',
 		},
 		{
 			id: '3',
 			name: 'YT',
 			icon: 'youtube',
-			link: 'https://youtube.com/',
+			link: 'https://www.youtube.com',
+		},
+		{
+			id: '4',
+			name: 'suckless',
+			icon: 'gear',
+			link: 'https://suckless.org',
 		},
 	],
 
@@ -81,24 +87,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'reddit',
+			icon: 'glasses',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Homepage',
+					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/unixporn',
+					link: 'https://www.reddit.com/r/unixporn',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/linuxmasterrace',
+					link: 'https://www.reddit.com/r/linuxmasterrace',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'r/memes',
+					link: 'https://www.reddit.com/r/memes',
+				},
+			],
+		},
+		{
+			icon: 'gear',
+			id: '1',
+			links: [
+				{
+					name: 'suckless Homepage',
+					link: 'https://suckless.org',
+				},
+				{
+					name: 'dwm',
+					link: 'https://dwm.suckless.org',
+				},
+				{
+					name: 'st',
+					link: 'https://st.suckless.org',
+				},
+				{
+					name: 'dmenu',
+					link: 'https://tools.suckless.org/dmenu',
 				},
 			],
 		},
