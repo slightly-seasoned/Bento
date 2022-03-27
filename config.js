@@ -72,7 +72,7 @@ const CONFIG = {
 		{
 			id: '4',
 			name: 'suckless',
-			icon: 'gear',
+			icon: 'cog',
 			link: 'https://suckless.org',
 		},
 	],
@@ -109,8 +109,8 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'gear',
-			id: '1',
+			icon: 'cog',
+			id: '2',
 			links: [
 				{
 					name: 'suckless Homepage',
