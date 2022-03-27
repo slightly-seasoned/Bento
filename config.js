@@ -60,7 +60,7 @@ const CONFIG = {
 		{
 			id: '2',
 			name: 'Reddit',
-			icon: 'glasses',
+			icon: 'bot',
 			link: 'https://www.reddit.com',
 		},
 		{
@@ -72,7 +72,7 @@ const CONFIG = {
 		{
 			id: '4',
 			name: 'suckless',
-			icon: 'bot',
+			icon: 'binary',
 			link: 'https://suckless.org',
 		},
 	],
@@ -87,7 +87,7 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'glasses',
+			icon: 'bot',
 			id: '1',
 			links: [
 				{
@@ -109,7 +109,7 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'bot',
+			icon: 'binary',
 			id: '2',
 			links: [
 				{
